@@ -6,7 +6,7 @@ class DNS():
     def __init__(self, url):
         self.url = url
         self.sectrails = 'https://api.securitytrails.com/v1/domain/'+self.url
-        self.header = {'apikey': 'mwKgW0unpJbUTKS85QjHkr0DljQWyo25', 'Content-Type': 'application/json'}
+        self.header = {'apikey': 'token', 'Content-Type': 'application/json'}
         self.subdomain = False
 
 
